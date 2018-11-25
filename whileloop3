@@ -1,0 +1,21 @@
+//Created by- VISHAL JAIN
+//Date-25/11/2018
+//Compile on- dev c++
+//Program name - find the factorial by using while loop
+
+
+#include<stdio.h>
+int main()
+{
+	int i=1,n,f=1;
+	printf("welcome in this program\n");
+	printf("enter the value of n \n");
+	scanf("%d",&n);
+	while(i<=n)
+	{
+		f=f*i;
+		i++;
+	}
+	printf("the factorial of your number is %d",f);
+	return 0;
+}
