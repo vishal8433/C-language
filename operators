@@ -1,0 +1,22 @@
+//Created by- VISHAL JAIN
+//Date-25/11/2018
+//Compile on- dev c++
+//Program name - find months and days in the given days
+
+
+#include<stdio.h>
+int main()
+{
+	int days ,months;
+	printf("welcome to this program.\n");
+	printf("enter the number of days.\n");
+	scanf("%d",&days);
+	months=days/30;
+	days=days%30;
+	printf("_______________________________________________________________________\n");
+	printf("in the number of your days the months is %d and days is %d.\n",months,days ) ;
+	printf("_________________________________________________________________________\n");
+	printf("THANK YOU\n");
+	return 0;
+	
+}
