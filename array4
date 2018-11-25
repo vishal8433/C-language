@@ -1,0 +1,30 @@
+//Created by- VISHAL JAIN
+//Date-25/11/2018
+//Compile on- dev c++
+//Program name - Find sum of all elements of array
+
+
+#include <stdio.h>
+int main()
+{
+    int a[100];
+    int i, n, sum=0;
+	
+	   printf("welcome in this program\n");
+	   printf("Input the number of elements to be stored in the array :");
+       scanf("%d",&n);
+   
+       printf("Input %d elements in the array :\n",n);
+       for(i=0;i<n;i++)
+        {
+	      printf("element - %d : ",i);
+	      scanf("%d",&a[i]);
+	    }
+
+    for(i=0; i<n; i++)
+    {
+        sum=sum+a[i];
+    }
+
+    printf("Sum of all elements stored in the array is : %d\n", sum);
+}
