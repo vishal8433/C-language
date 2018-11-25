@@ -1,0 +1,31 @@
+//Created by- VISHAL JAIN
+//Date-25/11/2018
+//Compile on- dev c++
+//Program name - take value in array and print them
+
+
+#include <stdio.h>  
+  
+int  main()  
+{  
+    int arr[10]; 
+    int i,n;  
+    printf("WELCOME TO THIS PROGRAM\n");
+    printf("enter the no. of integer stored in array");
+    scanf("%d",&n);
+    printf("enter %d values\n",n);
+    for(i=0; i<n; i++)  
+    {  
+	    printf("element - %d : ",i);
+        scanf("%d", &arr[i]);  
+    }  
+  
+    printf("\nElements in array are: ");  
+    for(i=0; i<n; i++)  
+    {  
+        printf("|%d  ", arr[i]);  
+    } 
+    printf("\n");	
+    return 0;
+    
+}
