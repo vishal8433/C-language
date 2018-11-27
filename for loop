@@ -1,0 +1,18 @@
+//Created by- VISHAL JAIN
+//Date-27/11/2018
+//Compile on- dev c++
+//Program name - Write a program in C to print the series 1,-4,7,-10,.........,-40.
+
+#include<stdio.h>
+int main()
+{
+	int i;
+	for(i=1;i<=40;i=i+3)
+	{
+		if(i%2==0)		
+		printf("%d\n",-i);
+		else
+		printf("%d\n",i);
+	}
+		return 0;
+}
