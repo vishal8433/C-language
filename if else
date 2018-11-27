@@ -1,0 +1,33 @@
+//Created by- VISHAL JAIN
+//Date-27/11/2018
+//Compile on- dev c++
+//Program name - Write a program in C to accept the four sides of a rectangle. Write a program to find out whether its area is
+               //greater than its perimeter.
+
+
+
+#include<stdio.h>
+int main()
+{
+	double s1,s2,s3,s4,area,perameter;
+	printf("welcome in this program.\n");
+	printf("enter the four side of your rectangle.\n");
+	scanf("%lf%lf%lf%lf",&s1,&s2,&s3,&s4);
+	if(s1>0&&s2>0&&s3>0&&s4>0)
+	{
+		if(s1==s3&&s2==s4)
+		{
+		area=s1*s3;
+		perameter=s1+s2+s3+s4;
+			if(area>perameter)
+			printf("area is greater\n");
+			else
+			printf("perameter is greater\n");
+		}
+		else
+		printf("invalid input\n");
+	}
+	else 
+	printf("value is  zero\n");
+	return 0;
+}
