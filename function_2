@@ -1,0 +1,25 @@
+
+
+//Created by- VISHAL JAIN
+//Date-29/11/2018
+//Compile on- dev c++
+//Program name - find the addition of two number by using fuction.
+
+
+#include<stdio.h>
+int add(int a , int b);
+int main()
+{
+	int z,m,n;
+	printf("welcome in this program\n");
+	printf("enter the value of a,b\n");
+	scanf("%d%d",&m,&n);
+	z=add(m,n);
+	printf("%d+%d=%d",m,n,z);
+}
+int add(int a,int b)
+{
+	int p ;
+	p=a+b;
+	return p;
+}
