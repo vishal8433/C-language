@@ -1,0 +1,19 @@
+//Created by- VISHAL JAIN
+//Date-29/11/2018
+//Compile on- dev c++
+//Program name - find the length of a string.
+
+#include <stdio.h>
+#include <string.h>
+ 
+int main()
+{
+  char str[100];
+  int len;
+ printf("welcome in this program.\n");
+  printf("Enter a string to calculate it's length and press enter.\n");
+    scanf("%[^\n]s",str);
+   len = strlen(str);
+   printf("the length of '%s' is %d.",str,len);
+   return 0;
+}
