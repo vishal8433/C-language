@@ -21,7 +21,7 @@
 int main()
 {
 	int n;
-	int str[50];
+	char str[50];
 	float bill,a,b,c,d,e;
 	printf("welcome to this program.\n");
 	printf("enter your name and press enter.\n");
