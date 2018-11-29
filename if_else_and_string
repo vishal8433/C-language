@@ -1,0 +1,51 @@
+//Created by- VISHAL JAIN
+//Date-29/11/2018
+//Compile on- dev c++
+//Program name- An electricity board charges according to following rates:
+
+                  //For the first 100 units - 40 P per unit,
+
+                  //For the next 200 units - 50 P per unit,
+
+                  //Beyond 300 units - 60 P per unit.
+
+                  //All users are charged a meter charge too, which is Rs 50/-
+
+                //Write a program in C to read the names of users and number of units consumed, and print out the charges with names.
+
+
+
+
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	int n;
+	int str[50];
+	float bill,a,b,c,d,e;
+	printf("welcome to this program.\n");
+	printf("enter your name and press enter.\n");
+	scanf("%[^\n]s",str);
+	printf("enter the number of units-\n");
+	scanf("%d",&n);
+	if(n<=100)
+	{
+		bill=n*.40+50;
+		printf("%s; your bill is %.2f rupees.",str,bill);
+	}
+	else if(100<n&&n<=300)
+	{
+		a=n-100;
+		b=100*.40;
+		c=a*.50;
+		bill=b+c+50;
+		printf("%s; your bill is %.2f rupees.",str,bill);
+	}
+	else if(n>300)
+	{
+		e=n-300;  
+		bill=(100*.40)+(200*.50)+(e*.60)+(50);
+		printf("%s;your bill is %.2f rupees.",str,bill);
+	}
+	return 0;
+}
