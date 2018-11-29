@@ -1,0 +1,24 @@
+
+//Created by- VISHAL JAIN
+//Date-29/11/2018
+//Compile on- dev c++
+//Program name - find the cube of a number by using fuction.
+
+
+#include<stdio.h>
+float cube(float x);
+int main()
+{
+	float m,n;
+  printf("welcome in this program\n");
+	printf("enter a number\n");
+	scanf("%f",&m);
+	n=cube(m);
+	printf("cube of the %f is %.3f",m,n);
+}
+float cube(float x)
+{
+	float p;
+	p=x*x*x;
+	return (p);
+}
