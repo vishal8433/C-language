@@ -1,0 +1,29 @@
+
+//Created by- VISHAL JAIN
+//Date-23/12/2018
+//Compile on- dev c++
+//Program name - decimal to binary
+
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	int a,r,b,i=1;
+	printf("enter a no.\n");
+	scanf("%d",&a);
+	while(a>0)
+	{
+		r=a%2;
+		b=b+(r*i);
+		a=a/2;
+		i=i*10;
+	}
+	printf("binary is %d",b);
+	return 0;
+}
+
+
+
