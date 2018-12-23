@@ -1,0 +1,23 @@
+//Created by- VISHAL JAIN
+//Date-23/12/2018
+//Compile on- dev c++
+//Program name - reverse of a no.
+
+
+#include<stdio.h>
+int main()
+{
+	int r ,n,s;
+	printf("enter number for reverse \n");
+	scanf("%d",&n);
+	while(n>0)
+	{
+	
+	r=n%10;
+	s=s*10+r;
+	n=n/10;
+}
+	printf("the reverse of number is %d",s);
+	return 0;
+      
+}
