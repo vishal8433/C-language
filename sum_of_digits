@@ -1,0 +1,23 @@
+//Created by- VISHAL JAIN
+//Date-23/12/2018
+//Compile on- dev c++
+//Program name - sum of didgits
+
+
+#include<stdio.h>
+int main()
+{
+	int r ,n,s;
+	printf("enter number \n");
+	scanf("%d",&n);
+	while(n>0)
+	{
+	
+	r=n%10;
+	s=s+r;
+	n=n/10;
+}
+	printf("the sum of digits is %d",s);
+	return 0;
+      
+}
