@@ -1,0 +1,20 @@
+//Created by- VISHAL JAIN
+//Date-30/12/2018
+//Compile on- dev c++
+//Program name - print table
+
+
+
+#include <stdio.h>
+int main()
+{
+  int a,i,b;
+  printf("enter the number for print the table\n");
+  scanf("%d",&a);
+  for(i=1;i<=10;i++)
+{
+ 	b=a*i;
+ 	printf("%d*%d=%d\n",a,i,b);
+}
+    return 0;
+}
