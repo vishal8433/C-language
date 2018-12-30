@@ -1,0 +1,20 @@
+//Created by- VISHAL JAIN
+//Date-30/12/2018
+//Compile on- dev c++
+//Program name - swaping of two no.
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	printf("enter the value of a,b for swapping\n");
+	scanf("%d%d",&a,&b);
+	c=a;
+	a=b;
+	b=c;
+	printf("a=%d\nb=%d\n",a,b);
+	return 0;
+}
